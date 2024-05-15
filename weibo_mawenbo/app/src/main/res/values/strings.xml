@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MainApplication</string>
+
+    <string name="ih_weibo">iH微博</string>
+
+    <string name="logo_text">发你所想</string>
+
+    <string name="privacy_title">声明与条款</string>
+
+    <string name="privacy_content">欢迎使用iH微博，我们将严格遵守相关法律和隐私政策保护您的个人隐私，请您阅读并同意《用户协议》与《隐私政策》</string>
+
+    <string name="privacy_disagree">不同意</string>
+
+    <string name="privacy_agree">同意并使用</string>
+
+    <string name="meun_recommend">推荐</string>
+
+    <string name="meun_my">我的</string>
+
+    <string name="recommend_title">iH推荐</string>
+
+    <string name="my_title">我的</string>
+
+    <string name="user_name">请先登录</string>
+
+    <string name="fans_count">点击头像去登录</string>
+
+    <string name="login_back">返回</string>
+
+    <string name="login_title">登录账号</string>
+
+    <string name="login_phone_text">   输入手机号:</string>
+
+    <string name="login_verification_code">   输入验证码:</string>
+
+    <string name="login_btn_text">立即登录</string>
+
+    <string name="get_verification_code">获取验证码</string>
+
+    <string name="logout">退出登录></string>
+
+</resources>

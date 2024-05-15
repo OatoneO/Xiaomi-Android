@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lgoin_back"
+            android:layout_width="32dp"
+            android:layout_height="21dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="10dp"
+            style="@style/login_back"
+            android:text="@string/login_back"/>
+        <TextView
+            android:id="@+id/lgoin_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/login_title"
+            android:text="@string/login_title"/>
+        <View
+            android:layout_width="32dp"
+            android:layout_height="21dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right|center"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="368dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/login_edit_background"
+        android:hint="@string/login_phone_text"
+        style="@style/login_text"/>
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/et_verification_code"
+            android:layout_width="368dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/login_edit_background"
+            android:hint="@string/login_verification_code"
+            style="@style/login_text" />
+
+        <TextView
+            android:id="@+id/tv_get_verification_code"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@id/et_verification_code"
+            android:layout_alignBottom="@id/et_verification_code"
+            android:layout_alignRight="@id/et_verification_code"
+            android:paddingLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:background="#00000000"
+            android:text="@string/get_verification_code"
+            style="@style/get_verification_code"/>
+
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_btn"
+        android:text="@string/login_btn_text"
+        style="@style/login_btn_text"/>
+
+</LinearLayout>

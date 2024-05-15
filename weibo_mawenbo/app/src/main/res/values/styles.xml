@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ih_weibo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="loge_text">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textColor">#66000000</item>
+    </style>
+
+    <style name="privacy_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="privacy_content">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="privacy_disagree">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#80000000</item>
+    </style>
+
+    <style name="privacy_agree">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="meun_text_on">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#0D84FF</item>
+    </style>
+
+    <style name="fragment_title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="user_name">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="fans_count">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#99000000</item>
+    </style>
+
+    <style name="login_back">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0D84FF</item>
+    </style>
+
+    <style name="login_title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="login_text">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#4D000000</item>
+    </style>
+
+    <style name="login_btn_text">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="get_verification_code">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0D84FF</item>
+    </style>
+
+    <style name="logout">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0D84FF</item>
+    </style>
+
+    <style name="post_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="post_bottom">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <style name="image_count">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+
+    <style name="preview_username">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="preview_download">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+</resources>

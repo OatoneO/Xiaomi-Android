@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="368dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/post"
+    android:orientation="vertical"
+    android:layout_gravity="center|top"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/post_background"
+    android:padding="16dp">
+    
+    <LinearLayout
+        android:id="@+id/post_header"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/avater"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/my_icon"/>
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="大王叫我来巡山"
+            style="@style/user_name"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/post_delete"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/delete"
+            android:background="?android:attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+        android:ellipsize="end"/>
+
+    <ImageView
+        android:id="@+id/post_video_cover"
+        android:layout_width="336dp"
+        android:layout_height="186dp"
+        android:visibility="gone"/>
+    <VideoView
+        android:id="@+id/post_video"
+        android:layout_width="336dp"
+        android:layout_height="186dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- 宽图显示的ImageView -->
+        <ImageView
+            android:id="@+id/ivWideImage"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <!-- 高图显示的ImageView -->
+        <ImageView
+            android:id="@+id/ivTallImage"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <!-- 九宫格显示的ImageView -->
+        <LinearLayout
+            android:id="@+id/gridViewImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/post_text"
+        android:layout_width="336dp"
+        android:layout_height="360dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/post_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/post_like"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="48dp"
+            android:drawableLeft="@drawable/post_like"
+            android:background="#01000000"
+            android:gravity="center"
+            android:text="点赞"
+            style="@style/post_bottom"/>
+
+        <Button
+            android:id="@+id/post_discuss"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="48dp"
+            android:drawableLeft="@drawable/discuss"
+            android:background="#01000000"
+            android:gravity="center"
+            android:text="评论"
+            style="@style/post_bottom"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
