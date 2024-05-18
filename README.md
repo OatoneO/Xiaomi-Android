@@ -1,4 +1,4 @@
 # Xiaomi-Android
-小米安卓开发
-使用Android Studio开发一个仿照微博的安卓应用系统，具有用户登录，浏览帖子，点赞和评论等功能。
+小米安卓开发  
+使用Android Studio开发一个仿照微博的安卓应用系统，具有用户登录，浏览帖子，点赞和评论等功能。  
 项目使用Java作为编程语言,使用Animation制作转场动画，OkHttp进行网络请求，SharedPreferences在本地保存用户相关信息，fragment和recyclerview实现页面效果，Glide加载图片资源，MediaPlay加载视频资源，SwipeRefreshLayout实现下拉刷新功能，LeakCanary和Watch-Dog工具对项目进行内存泄漏的检测
